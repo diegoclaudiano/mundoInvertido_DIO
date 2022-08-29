@@ -17,5 +17,10 @@ btnSubscribe.addEventListener('click', async () => {
 
   // Salvar no banco de dados
   const subscriptionId = subscribeToHellfireClub(subscription);
-  console.log(`Inscrito com sucesso: ${subscriptionId}`)
+  console.log(`Inscrito com sucesso: ${subscriptionId}`);
+
+  txtName.value = ''
+  txtEmail.value = ''
+  txtLevel.value = ''
+  txtCharacter.value = ''
 });
